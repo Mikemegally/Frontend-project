@@ -75,6 +75,9 @@
     height: 100%;
     /* background-color: antiquewhite; */
 }
+.container .headrpage .headercon .headr1{
+    margin-top: 65px;
+}
 .container .headrpage .headercon .con1,.con2{
     height: 100%;
     /* background-color: violet; */
@@ -108,11 +111,12 @@
     font-size: 18px;
 }
 .container .headrpage .headercon .con1 .headr2{
-    height: 13vh;
+    height: 11vh;
     color: var(--color);
     font-weight: 500;
     text-transform: capitalize;
-    transform: translateY(-30%);
+    transform: translateY(-50%);
+    line-height: 2;
     
 }
 .container .headrpage .headercon .con1 .headr3,.headr4{
