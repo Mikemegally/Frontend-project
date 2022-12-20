@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --color: rgb(53, 68, 99);
+    --color2: rgb(42,129,234);
+    --color3:rgb(54, 98, 160);
+}
+.container{
+    /* background-color: brown; */
+    height: 929vh;
+}
+
+.container .header{
+    height: 9vh;
+   /* background-color: antiquewhite; */
+   overflow: hidden;
+   top: 0;
+   z-index: 999999;
+   position: fixed;
+   width: 90%;
+   background: #fff;
+}
+.container .header .row .logo .span{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(54, 98, 160);
+}
+.container .header .row .logo{
+    display: flex;
+    align-items: center;
+}
+.container .header .row{
+    height: 100%;
+}
+
+.container .header .row .content ul{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+.container .header .row .content  ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 640;
+    color: rgb(53, 68, 99);
+}
+.container .header  .row .content  ul li.complete :last-child{
+    color: white !important;
+   
+}
+
+.container .header .row .content  ul li a:last-child{
+    border-radius: 50px;
+    padding: 5px 18px;
+}
+/* end of nav bar */
+.container .headrpage{
+    background-image: url('../imgs/shape-a.png');
+    background-size: cover;
+    background-position: top;
+    height: 80vh;
+    background-color: rgb(192 214 240 / 30%);
+}
+.container .headrpage .headercon{
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+.container .headrpage .headercon .con1,.con2{
+    height: 100%;
+    /* background-color: violet; */
+}
+
+.container .headrpage .headercon .con1{
+    /* background-color:aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.container .headrpage .headercon .con1 > div{
+    height: 10vh;
+}
+
+.container .headrpage .headercon .con1 .headr1 .mspan{
+    font-size: 55px;
+    font-weight: 700;
+    color: var(--color3);
+}
+.container .headrpage .headercon .con1 .headr1 .lspan{
+    color: var(--color3);
+    font-size: 29px;
+    font-weight: 700;
+}
+.container .headrpage .headercon .con1 .headr1 p{
+    position: relative;
+    bottom: 65%;
+    left: 52%;
+    font-weight: 700;
+    font-size: 18px;
+}
+.container .headrpage .headercon .con1 .headr2{
+    height: 13vh;
+    color: var(--color);
+    font-weight: 500;
+    text-transform: capitalize;
+    transform: translateY(-30%);
+    
+}
+.container .headrpage .headercon .con1 .headr3,.headr4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container .headrpage .headercon .con1 .headr3 div{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .headrpage .headercon .con1 .headr3 div p{
+    border-radius: 20px;
+    padding: 6px 30px;
+}
+.container .headrpage .headercon .con1 .headr4 div{
+    width: 40%;
+    height: 100%;
+}
+/* end of headrpage */
+
+
+.container .aboutcorona{
+    /* background-color: beige; */
+    height: 70vh;
+}
+.container .aboutcorona .row{
+    height: 97%;
+}
+/* .container .aboutcorona .aboutcontent{
+    background-color:burlywood;
+}
+.container .aboutcorona .aboutlist{
+    background-color: aqua;
+} */
+
+
+
+
+/* end of about */
+.container .coronaspread{
+    /* background-color: beige; */
+    height: 103vh;
+    background-color: rgb(192 214 240 / 30%);
+}
+.container .coronaspread .spreadhead{
+    height: 20vh;
+}
+.container .coronaspread .spreadcard{
+    /* background-color: darkblue; */
+    height:60vh;
+}
+.container .coronaspread .spreadcard .card ,.container .symptoms-content .card{
+    border:none;
+    box-shadow:0px 1px 3px white;
+}
+.container .coronaspread .spreadcard .card-body ,.container .symptoms-content .card-body{
+    padding:0 0;
+}
+.container .coronaspread .spreadcard .img-card{
+         width:100%;
+        background-color: rgb(192 214 240 / 30%);
+        padding:0 0;
+        border-bottom:5px solid #2a81ea;
+}
+.container .coronaspread .spreadcard .card-title ,.container .symptoms-content .card-title{
+    color: #2a81ea;
+    margin-top:17px;
+    padding: 0px 12px;
+    font-size:1rem;
+}
+.container .coronaspread .spreadcard .card-text,.container .symptoms-content .card-text{
+    padding:0px 12px;
+}
+.container .coronaspread button{
+    margin: 20px 0;
+    border: none;
+    color: white;
+    background: #2a81ea;
+    padding: 5px 24px;
+    height: 40px;
+    border-radius: 23px;
+    font-weight: bold;
+}
+.container .coronaspread .btn4{
+    text-align: center;
+}
+/* end of spread */
+
+.container .symptoms-head{
+    height: 110vh;
+}
+.container .symptoms-title{
+    height: 36vh;
+}
+.container .symptoms-content{
+   height: calc(80vh - 36vh);
+}
+.container .symptoms-title h2{
+    color: #2a81ea;
+    font-size: 1.3rem;
+    line-height: 1.2;
+}
+.container .symptoms-title h1{
+    color: #50658e;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.container .symptoms-title p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.container .symptoms-content .img-symptoms{   
+    background-color: rgb(192 214 240 / 30%);
+    border-radius: 60px;
+    width: 110px; 
+}
+.container .symptoms-head .btn5{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.container .symptoms-head span{
+    color: black;
+    font-weight:bold;
+}
+.container .symptoms-head button{
+    margin: 20px 0;
+    border: none;
+    color: white;
+    background: #2a81ea;
+    padding: 5px 24px;
+    height: 40px;
+    border-radius: 23px;
+    font-weight: bold;
+}
+#icon1{
+    position: relative;
+    color: #2a81ea;
+    left: 57px;
+    font-size: 48px;
+}
+/* end of symptoms */
+
+.container .protect-head{
+    height: 100vh;
+    background-color: rgb(192 214 240 / 30%);
+}
+/* .container .protect-head .protect-title{
+    background-color: antiquewhite;
+} */
+.container .protect-head .protect-cards{
+    /* background-color: beige; */
+    height: calc(80vh - 35vh);
+}
+
+.container .protect-head .protect-cards .protect-img{
+     margin-left: 85px;
+    width: 100px;
+    border-radius: 53px;
+}
+.container .protect-head .protect-links{
+    /* background-color: brown; */
+    width: 100%;
+    height: 19vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+.container .protect-head .protect-links a{
+    text-decoration: none;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+/* end of prevention section */
+.container .steps-head{
+    background-color: rgb(192 214 240 / 30%);
+    padding: 76px 40px;
+    height: 110vh;
+}
+.container .steps-container{
+   height: 100%;
+   box-shadow: 9px 6px 45px rgb(192 214 255 / 93%);
+   width: 95%;
+   background: white;
+}
+.container .steps-take .steps-title{
+    font-size: 25px;
+    text-align: start;
+    margin-bottom: 31px;
+    color: var(--color3);
+}
+/* end of steps container */
+/* start section 7 follow steps  */
+.container .follow-head{
+    height: 65vh;
+    background-color: ghostwhite;
+}
+.container .follow-title{
+   height: 25vh;
+   line-height: 1.6;
+    text-align: center;
+    padding-top: 70px;
+}
+.container .follow-imgs{
+   height: calc(65vh - 25vh);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.container .follow-imgs .details-photo{
+    width: 100px;
+    border-radius: 56px;
+}
+/* end of follow steps section */
+.container .treatment-head{
+    background-color: #2766bb;
+    height: 81vh;
+    background-image: url('../imgs/shape-a.png');
+    background-size: cover;
+    background-position: top;
+}
+.container .treatment-head .teatment-left{
+    padding:  60px;
+}
+.container .treatment-head .teatment-left > span{
+    color: rgb(31, 238, 238);
+}
+/* .container .treatment-head .teatment-reight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.container .treatment-head .teatment-reight .self-care {
+    background-color: #1b47a1;
+    width: 360px;
+    height: 61vh;
+    border-radius: 3px;
+    padding: 30px 30px;
+}
+/* end of treatment */
+.container .do-head{
+    background-color: rgb(192 214 240 / 30%);
+    height: 90vh;
+}
+.container .do-head .do-title{
+    /* background-color: beige; */
+    height: 34vh;
+    line-height: 2;
+    text-align: center;
+    padding-top: 20px;
+}
+.container .do-head .do-title h1{
+    color:#50658e;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container .do-head .do-photo{
+    /* background-color: #50658e; */
+    height:calc(90vh - 34vh) ;
+}
+.container .do-head .do-photo .section9-img{
+    width: 100px;
+    border: 1px solid red;
+    border-radius: 51px;
+}
+.container .do-head  .photo1>span{
+    color:#2a81ea;
+    padding-right: 18px;
+ }
+ .container .do-head .do-photo .photo1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+ }
+ .container .do-head .do-photo .photo2>span{
+    color:#2a81ea;
+    padding-left: 18px;
+ }
+ .container .do-head .do-photo .photo2 .section9-img2{
+    width: 100px;
+    border: 1px solid green;
+    border-radius: 51px;
+ }
+ /* end of do and dont */
+ .container .ocrdion-head{
+    background-color: beige;
+    height: 120vh;
+ }
+ .container .ocrdion-head .ocrdion-title{
+     height: 25vh;
+    }
+    .container .ocrdion-head .ocrdion-body{
+       height: calc(125vh - 25vh);
+       /* background-color: brown; */
+    }
+    .btns-accord{
+        margin-bottom: 13px;
+        border: gray 2px solid;
+        background: #ffff;
+        padding: 15px 11px;
+        width: 61%;
+        text-align: start;
+        border-radius: 5px;
+ }
+      .btns-accord:hover{
+        color: #2a81ea;
+        border: 2px solid #2a81ea;
+        transition: color .2s ease;
+    }
+ /*end of FAQ  */
+
+ .container .news-head{
+    height: 90vh;
+    background-color: rgb(192 214 240 / 30%);
+ }
+ .container .news-head .news-title{
+   height: 20vh;
+ }
+ .container .news-head .news-body{
+   height: calc(85vh - 20vh);
+ }
+ /* end of news section */
+ .container .footer-head{
+    background-image: url(../imgs/shape-a.png);
+    background-size: cover;
+     background-color:#151c2e;
+    height: 80vh;
+ }
+.links .link1{
+    background-color: #3b5999;
+    color: white;
+    text-decoration: none;
+    padding: 18px 72px;
+    cursor: pointer;
+}
+.links .link2{
+    background-color: #55acee;
+    color: white;
+    text-decoration: none;
+    padding: 18px 72px;
+    cursor: pointer;       
+}
+.links .link3{
+    color: white;
+    text-decoration: none;
+    background-color: #e4405f;
+    padding: 18px 72px;
+    cursor: pointer;
+}
+.footer-logo{
+    font-size: 30px;
+    line-height: 80px;
+}
