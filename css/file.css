@@ -4,6 +4,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 :root{
     --color: rgb(53, 68, 99);
     --color2: rgb(42,129,234);
@@ -492,7 +493,20 @@
         bottom: 20%;
     }
     .container .header .row .content{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 35vw;
+        height: 90vh;
+        background-color: white;
         display: none;
+    }
+    .container .header .row .content ul{
+        flex-direction: column;
+    }
+    body{
+        background-color: #1b47a1;
+        z-index: 22;
     }
     .container .header .row .logo .span{
         font-size: 25px;
