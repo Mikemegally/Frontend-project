@@ -63,6 +63,14 @@
     border-radius: 50px;
     padding: 5px 18px;
 }
+.container .header .row .content + #bars{
+    color: #2a81ea;
+    position: relative;
+    left: 95%;
+    bottom: 55%;
+    cursor: pointer;
+    display: none;
+}
 /* end of nav bar */
 .container .headrpage{
     background-image: url('../imgs/shape-a.png');
@@ -476,4 +484,18 @@
 .footer-logo{
     font-size: 30px;
     line-height: 80px;
+}
+
+@media screen and (max-width: 1106px) {
+    .container .header .row .content + #bars{
+        display: block;
+        bottom: 20%;
+    }
+    .container .header .row .content{
+        display: none;
+    }
+    .container .header .row .logo .span{
+        font-size: 25px;
+        font-weight: 800;
+    }
 }
