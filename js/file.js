@@ -93,3 +93,13 @@ top_btn.onclick = function(){
         behavior:"smooth"
     })
 }
+
+let menu = document.querySelector('.container .header .content')
+let bars = document.getElementById('bars')
+bars.addEventListener('click',function(){
+    if(menu.style.display == 'flex'){
+        menu.style.display = 'none'
+    }else{
+        menu.style.display = 'flex'
+    }
+})
