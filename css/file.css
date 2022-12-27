@@ -11,13 +11,11 @@
     --color3:rgb(54, 98, 160);
 }
 .container{
-    /* background-color: brown; */
     height: 900vh;
 }
 
 .container .header{
     height: 9vh;
-   /* background-color: antiquewhite; */
    overflow: hidden;
    top: 0;
    z-index: 999999;
@@ -82,18 +80,15 @@
 }
 .container .headrpage .headercon{
     height: 100%;
-    /* background-color: antiquewhite; */
 }
 .container .headrpage .headercon .headr1{
     margin-top: 65px;
 }
 .container .headrpage .headercon .con1,.con2{
     height: 100%;
-    /* background-color: violet; */
 }
 
 .container .headrpage .headercon .con1{
-    /* background-color:aquamarine; */
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -149,28 +144,14 @@
     height: 100%;
 }
 /* end of headrpage */
-
-
 .container .aboutcorona{
-    /* background-color: beige; */
     height: 70vh;
 }
 .container .aboutcorona .row{
     height: 97%;
 }
-/* .container .aboutcorona .aboutcontent{
-    background-color:burlywood;
-}
-.container .aboutcorona .aboutlist{
-    background-color: aqua;
-} */
-
-
-
-
 /* end of about */
 .container .coronaspread{
-    /* background-color: beige; */
     height: 103vh;
     background-color: rgb(192 214 240 / 30%);
 }
@@ -178,7 +159,6 @@
     height: 20vh;
 }
 .container .coronaspread .spreadcard{
-    /* background-color: darkblue; */
     height:60vh;
 }
 .container .coronaspread .spreadcard .card ,.container .symptoms-content .card{
@@ -278,11 +258,7 @@
     height: 100vh;
     background-color: rgb(192 214 240 / 30%);
 }
-/* .container .protect-head .protect-title{
-    background-color: antiquewhite;
-} */
 .container .protect-head .protect-cards{
-    /* background-color: beige; */
     height: calc(80vh - 35vh);
 }
 
@@ -292,7 +268,6 @@
     border-radius: 53px;
 }
 .container .protect-head .protect-links{
-    /* background-color: brown; */
     width: 100%;
     height: 19vh;
     display: flex;
@@ -359,11 +334,6 @@
 .container .treatment-head .teatment-left > span{
     color: rgb(31, 238, 238);
 }
-/* .container .treatment-head .teatment-reight{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 .container .treatment-head .teatment-reight .self-care {
     background-color: #1b47a1;
     width: 360px;
@@ -377,7 +347,6 @@
     height: 90vh;
 }
 .container .do-head .do-title{
-    /* background-color: beige; */
     height: 34vh;
     line-height: 2;
     text-align: center;
@@ -390,7 +359,6 @@
     text-transform: uppercase;
 }
 .container .do-head .do-photo{
-    /* background-color: #50658e; */
     height:calc(90vh - 34vh) ;
 }
 .container .do-head .do-photo .section9-img{
@@ -418,7 +386,6 @@
  }
  /* end of do and dont */
  .container .ocrdion-head{
-    /* background-color: beige; */
     height: 100vh;
  }
  .container .ocrdion-head .ocrdion-title{
@@ -426,7 +393,6 @@
     }
     .container .ocrdion-head .ocrdion-body{
        height: calc(125vh - 25vh);
-       /* background-color: brown; */
     }
     .btns-accord{
         margin-bottom: 13px;
